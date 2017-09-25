@@ -1,0 +1,14 @@
+NameL Park Ki Sung 박기성
+Student ID: 20130242
+
+-I did this assignment on my own. I got help with c grammars on our text book.
+I asked question through the mailing list about specifics of the functions that I must satisfy.
+
+-Q: Is it possible for strCopy to call assert to verify that the destination memory area specified by the caller is large enough? Explain.
+-A:We need information about the allocated memory size of the destination to call assert and verify. However, what we know about the destination is only its address. The starting address is well-known but we don't know where it will end. It is impossible to know how much memory was allocated only with its address. Therefore, we cannot verify that the destination memory area specified by the caller is large enough.
+
+-I used point notation only for Part1 for extra credit.
+
+-It took me 2 days to finish this assignment.
+
+This assignment helped me learn about using stream input and output in C.
